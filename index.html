@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
         /* reset & base */
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -266,21 +267,14 @@
        
 
         <!-- Logo -->
-        <div class="flex justify-center mb-5">
-            <div class="bg-white rounded-full p-7 shadow-xl border border-gray-100/70 relative logo-pulse backdrop-blur-sm">
-                <div class="flex items-center justify-center space-x-1">
-                    <span class="text-blue-600 text-4xl font-bold italic">AL</span>
-                    <div class="relative">
-                        <span class="text-red-500 text-4xl font-bold italic">F</span>
-                        <div class="absolute -top-4 -right-2 float-icon">
-                            <i class="fas fa-arrow-up text-black transform rotate-45 text-sm"></i>
-                        </div>
-                    </div>
-                    <span class="text-green-600 text-4xl font-bold italic">ASHNE</span>
-                </div>
-                <p class="text-[9px] tracking-[0.25em] text-gray-500 font-semibold mt-1">DIGITAL MARKETING AGENCY</p>
-            </div>
+       <div class="flex justify-center mb-5">
+    <div class="bg-white rounded-full p-5 shadow-xl border border-gray-100/70 relative logo-pulse backdrop-blur-sm">
+        <div class="flex items-center justify-center">
+            <img src="./img/logo.png" alt="Logo" class="w-[250px] h-[100px]">
         </div>
+        
+    </div>
+</div>
 
         <h1 class="serif-font text-6xl text-gray-900 mb-1 tracking-tight transition-all duration-300 hover:text-blue-700">Al Fashne</h1>
         <h2 class="text-blue-600 font-bold tracking-[0.3em] text-sm uppercase mb-4">Digital Marketing Agency</h2>
@@ -295,55 +289,104 @@
 
         <!-- ===== PHONE BUTTONS - arranged in a nice grid ===== -->
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 mb-8">
-            <!-- SEO -->
-            <a href="tel:+200201111263618" class="phone-btn">
-                <div class="icon-circle bg-blue-600 text-white shadow-sm">
-                    <i class="fas fa-search"></i>
-                </div>
-                <span class="label">SEO</span>
-                <span class="number">01111263618</span>
-            </a>
-
-            <!-- Marketing Specialist 1 -->
-            <a href="tel:+200201121145296" class="phone-btn">
-                <div class="icon-circle bg-red-500 text-white shadow-sm">
-                    <i class="fas fa-bullhorn"></i>
-                </div>
-                <span class="label">Marketing</span>
-                <span class="number">01121145296</span>
-            </a>
-
-            <!-- Marketing Specialist 2 -->
-            <a href="tel:+200201116456917" class="phone-btn">
-                <div class="icon-circle bg-yellow-500 text-white shadow-sm">
-                    <i class="fas fa-chart-bar"></i>
-                </div>
-                <span class="label">Marketing</span>
-                <span class="number">01116456917</span>
-            </a>
-
-            <!-- Customer Service -->
-            <a href="tel:+200201121147296" class="phone-btn">
-                <div class="icon-circle bg-green-500 text-white shadow-sm">
-                    <i class="fas fa-headset"></i>
-                </div>
-                <span class="label">Support</span>
-                <span class="number">01121147296</span>
-            </a>
+    <!-- SEO -->
+    <a href="https://wa.me/201111263618" target="_blank" class="phone-btn">
+        <div class="icon-circle bg-green-500 text-white shadow-sm">
+            <i class="fab fa-whatsapp"></i>
         </div>
+        <span class="label">SEO </span>
+        <span class="number">01111263618</span>
+    </a>
+
+    <!-- Marketing Specialist 1 -->
+    <a href="https://wa.me/201121145296" target="_blank" class="phone-btn">
+        <div class="icon-circle bg-green-500 text-white shadow-sm">
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <span class="label">Marketing Specialist</span>
+        <span class="number">01121145296</span>
+    </a>
+
+    <!-- Marketing Specialist 2 -->
+    <a href="https://wa.me/201116456917" target="_blank" class="phone-btn">
+        <div class="icon-circle bg-green-500 text-white shadow-sm">
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <span class="label">Marketing Specialist</span>
+        <span class="number">01116456917</span>
+    </a>
+
+    <!-- Customer Service -->
+    <a href="https://wa.me/201121147296" target="_blank" class="phone-btn">
+        <div class="icon-circle bg-green-500 text-white shadow-sm">
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <span class="label">Customer Service</span>
+        <span class="number">01121147296</span>
+    </a>
+</div>
 
         <!-- Links List (services etc) -->
         <div class="space-y-4 mb-10">
-            <a href="#" class="link-card flex items-center gap-4">
-                <div class="icon-wrapper bg-blue-600 text-white shadow-sm">
-                    <i class="fas fa-bullseye text-xl"></i>
+            <a href="https://www.facebook.com/fashne.net" target="_blank" class="link-card flex items-center gap-4">
+    <div class="icon-wrapper bg-blue-600 text-white shadow-sm">
+        <i class="fab fa-facebook-f text-2xl"></i>
+    </div>
+    <div class="text-left flex-grow">
+        <h3 class="text-base font-bold text-gray-800 uppercase tracking-wide">Facebook</h3>
+        <p class="text-sm text-gray-400 opacity-80">Follow us on Facebook</p>
+    </div>
+    <div class="arrow-icon text-gray-300">
+        <i class="fas fa-chevron-right text-base"></i>
+    </div>
+</a>
+<a href="https://www.tiktok.com/@fashne.net?" target="_blank" class="link-card flex items-center gap-4">
+    <div class="icon-wrapper bg-black text-white shadow-sm">
+        <i class="fab fa-tiktok text-xl"></i>
+    </div>
+    <div class="text-left flex-grow">
+        <h3 class="text-base font-bold text-gray-800 uppercase tracking-wide">TikTok</h3>
+        <p class="text-sm text-gray-400 opacity-80">Follow us on TikTok</p>
+    </div>
+    <div class="arrow-icon text-gray-300">
+        <i class="fas fa-chevron-right text-base"></i>
+    </div>
+</a>
+<a href="https://www.linkedin.com/company/al-fashne-for-digital-marketing/" target="_blank" class="link-card flex items-center gap-4">
+    <div class="icon-wrapper bg-[#0A66C2] text-white shadow-sm">
+        <i class="fab fa-linkedin-in text-xl"></i>
+    </div>
+    <div class="text-left flex-grow">
+        <h3 class="text-base font-bold text-gray-800 uppercase tracking-wide">LinkedIn</h3>
+        <p class="text-sm text-gray-400 opacity-80">Connect with us on LinkedIn</p>
+    </div>
+    <div class="arrow-icon text-gray-300">
+        <i class="fas fa-chevron-right text-base"></i>
+    </div>
+</a>
+ <a href="#" class="link-card flex items-center gap-4">
+                <div class="icon-wrapper bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600 text-white shadow-sm">
+                    <i class="fab fa-instagram text-2xl"></i>
                 </div>
                 <div class="text-left flex-grow">
-                    <h3 class="text-base font-bold text-gray-800 uppercase tracking-wide">Our Services</h3>
-                    <p class="text-sm text-gray-400 opacity-80">Discover what we offer</p>
+                    <h3 class="text-base font-bold text-gray-800 uppercase tracking-wide">Instagram</h3>
+                    <p class="text-sm text-gray-400 opacity-80">Follow us for tips & updates</p>
                 </div>
                 <div class="arrow-icon text-gray-300"><i class="fas fa-chevron-right text-base"></i></div>
             </a>
+<a href="https://www.behance.net/fashnemarketing" target="_blank" class="link-card flex items-center gap-4">
+    <div class="icon-wrapper bg-[#1769FF] text-white shadow-sm">
+        <i class="fab fa-behance text-xl"></i>
+    </div>
+    <div class="text-left flex-grow">
+        <h3 class="text-base font-bold text-gray-800 uppercase tracking-wide">Behance</h3>
+        <p class="text-sm text-gray-400 opacity-80">View our creative portfolio</p>
+    </div>
+    <div class="arrow-icon text-gray-300">
+        <i class="fas fa-chevron-right text-base"></i>
+    </div>
+</a>
+
             <a href="#" class="link-card flex items-center gap-4">
                 <div class="icon-wrapper bg-red-500 text-white shadow-sm">
                     <i class="fas fa-chart-bar text-xl"></i>
@@ -354,46 +397,10 @@
                 </div>
                 <div class="arrow-icon text-gray-300"><i class="fas fa-chevron-right text-base"></i></div>
             </a>
-            <a href="#" class="link-card flex items-center gap-4">
-                <div class="icon-wrapper bg-yellow-500 text-white shadow-sm">
-                    <i class="fas fa-users text-xl"></i>
-                </div>
-                <div class="text-left flex-grow">
-                    <h3 class="text-base font-bold text-gray-800 uppercase tracking-wide">About Us</h3>
-                    <p class="text-sm text-gray-400 opacity-80">Meet the team behind Al Fashne</p>
-                </div>
-                <div class="arrow-icon text-gray-300"><i class="fas fa-chevron-right text-base"></i></div>
-            </a>
-            <a href="#" class="link-card flex items-center gap-4">
-                <div class="icon-wrapper bg-green-500 text-white shadow-sm">
-                    <i class="fab fa-whatsapp text-2xl"></i>
-                </div>
-                <div class="text-left flex-grow">
-                    <h3 class="text-base font-bold text-gray-800 uppercase tracking-wide">WhatsApp</h3>
-                    <p class="text-sm text-gray-400 opacity-80">Chat with us now</p>
-                </div>
-                <div class="arrow-icon text-gray-300"><i class="fas fa-chevron-right text-base"></i></div>
-            </a>
-            <a href="#" class="link-card flex items-center gap-4">
-                <div class="icon-wrapper bg-blue-700 text-white shadow-sm">
-                    <i class="fas fa-calendar-alt text-xl"></i>
-                </div>
-                <div class="text-left flex-grow">
-                    <h3 class="text-base font-bold text-gray-800 uppercase tracking-wide">Book a Consultation</h3>
-                    <p class="text-sm text-gray-400 opacity-80">Schedule a free consultation</p>
-                </div>
-                <div class="arrow-icon text-gray-300"><i class="fas fa-chevron-right text-base"></i></div>
-            </a>
-            <a href="#" class="link-card flex items-center gap-4">
-                <div class="icon-wrapper bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600 text-white shadow-sm">
-                    <i class="fab fa-instagram text-2xl"></i>
-                </div>
-                <div class="text-left flex-grow">
-                    <h3 class="text-base font-bold text-gray-800 uppercase tracking-wide">Instagram</h3>
-                    <p class="text-sm text-gray-400 opacity-80">Follow us for tips & updates</p>
-                </div>
-                <div class="arrow-icon text-gray-300"><i class="fas fa-chevron-right text-base"></i></div>
-            </a>
+            
+            
+            
+           
             <a href="mailto:info@alfashne.com" class="link-card flex items-center gap-4">
                 <div class="icon-wrapper bg-yellow-400 text-white shadow-sm">
                     <i class="fas fa-envelope text-xl"></i>
@@ -404,34 +411,20 @@
                 </div>
                 <div class="arrow-icon text-gray-300"><i class="fas fa-chevron-right text-base"></i></div>
             </a>
+            <a href="https://maps.app.goo.gl/xv9stKL3Em3zmggG6" target="_blank" class="link-card flex items-center gap-4">
+    <div class="icon-wrapper bg-red-500 text-white shadow-sm">
+        <i class="fas fa-map-marker-alt text-xl"></i>
+    </div>
+    <div class="text-left flex-grow">
+        <h3 class="text-base font-bold text-gray-800 uppercase tracking-wide">Google Maps</h3>
+        <p class="text-sm text-gray-400 opacity-80">Find our location</p>
+    </div>
+    <div class="arrow-icon text-gray-300">
+        <i class="fas fa-chevron-right text-base"></i>
+    </div>
+</a>
         </div>
-         <!-- ===== HERO: floating marketing images (cards) ===== -->
-        <div class="flex flex-wrap items-center justify-center gap-3 mb-6 relative">
-            <div class="hero-img-card flex items-center gap-2 px-4 py-2 bg-white/80">
-                <i class="fas fa-chart-line text-blue-500"></i>
-                <span class="text-xs font-bold text-gray-700 tracking-wide">GROWTH</span>
-            </div>
-            <div class="hero-img-card flex items-center gap-2 px-4 py-2 bg-white/80">
-                <i class="fas fa-bullhorn text-red-400"></i>
-                <span class="text-xs font-bold text-gray-700 tracking-wide">ENGAGE</span>
-            </div>
-            <div class="hero-img-card flex items-center gap-2 px-4 py-2 bg-white/80">
-                <i class="fas fa-people-arrows text-purple-500"></i>
-                <span class="text-xs font-bold text-gray-700 tracking-wide">COMMUNITY</span>
-            </div>
-            <div class="hero-img-card flex items-center gap-2 px-4 py-2 bg-white/80">
-                <i class="fas fa-rocket text-yellow-500"></i>
-                <span class="text-xs font-bold text-gray-700 tracking-wide">SCALE</span>
-            </div>
-            <div class="hero-img-card flex items-center gap-2 px-4 py-2 bg-white/80">
-                <i class="fas fa-hashtag text-pink-500"></i>
-                <span class="text-xs font-bold text-gray-700 tracking-wide">TREND</span>
-            </div>
-            <div class="hero-img-card flex items-center gap-2 px-4 py-2 bg-white/80">
-                <i class="fas fa-ad text-indigo-400"></i>
-                <span class="text-xs font-bold text-gray-700 tracking-wide">ADS</span>
-            </div>
-        </div>
+        
 
         <!-- Footer -->
         <div class="mt-6">
@@ -458,27 +451,7 @@
                 </div>
             </div>
 
-            <!-- Social Icons: Facebook, TikTok added -->
-            <div class="flex justify-center space-x-4">
-                <a href="#" class="social-icon hover:bg-blue-600">
-                    <i class="fab fa-facebook-f text-base"></i>
-                </a>
-                <a href="#" class="social-icon hover:bg-pink-600">
-                    <i class="fab fa-instagram text-base"></i>
-                </a>
-                <a href="#" class="social-icon hover:bg-blue-700">
-                    <i class="fab fa-linkedin-in text-base"></i>
-                </a>
-                <a href="#" class="social-icon hover:bg-red-600">
-                    <i class="fab fa-youtube text-base"></i>
-                </a>
-                <a href="#" class="social-icon hover:bg-black">
-                    <i class="fab fa-tiktok text-base"></i>
-                </a>
-                <a href="#" class="social-icon hover:bg-blue-500">
-                    <i class="fab fa-facebook-messenger text-base"></i>
-                </a>
-            </div>
+           
         </div>
 
         <div class="mt-10 text-xs text-gray-300 tracking-widest flex items-center justify-center gap-2">
