@@ -266,26 +266,112 @@
 
        
 
-        <!-- Logo -->
-       <div class="flex justify-center mb-5">
+<!-- Logo -->
+<div class="flex justify-center mb-5">
     <div class="bg-white rounded-full p-5 shadow-xl border border-gray-100/70 relative logo-pulse backdrop-blur-sm">
         <div class="flex items-center justify-center">
             <img src="./img/logo.png" alt="Logo" class="w-[250px] h-[100px]">
         </div>
-        
     </div>
 </div>
 
-        <h1 class="serif-font text-6xl text-gray-900 mb-1 tracking-tight transition-all duration-300 hover:text-blue-700">Al Fashne</h1>
-        <h2 class="text-blue-600 font-bold tracking-[0.3em] text-sm uppercase mb-4">Digital Marketing Agency</h2>
-        
-        <div class="flex justify-center mb-5">
-            <div class="gradient-bar"></div>
-        </div>
+<h1 class="serif-font text-6xl text-gray-900 mb-1 tracking-tight transition-all duration-300 hover:text-blue-700">Al Fashne</h1>
+<h2 class="text-blue-600 font-bold tracking-[0.3em] text-sm uppercase mb-4">Digital Marketing Agency</h2>
 
-        <p class="text-gray-600 text-base leading-relaxed mb-6 px-4 max-w-sm mx-auto bigger-text">
-            We help businesses grow online through smart strategies, creative content & performance-driven marketing.
-        </p>
+<div class="flex justify-center mb-5">
+    <div class="gradient-bar"></div>
+</div>
+
+<p class="text-gray-600 text-base leading-relaxed mb-6 px-4 max-w-sm mx-auto bigger-text">
+    We help businesses grow online through smart strategies, creative content & performance-driven marketing.
+</p>
+
+<!-- ===== BACKGROUND MARKETING IMAGES (digital marketing specific) ===== -->
+<div class="bg-marketing">
+    <!-- Digital Marketing Image 1: SEO / Analytics / Growth -->
+    <img src="./img/Mobile Marketing-bro.png" alt="Digital Marketing SEO" loading="lazy">
+    <!-- Digital Marketing Image 2: Social Media / Content Marketing -->
+    <img src="./img/Mobile Marketing-pana.png" alt="Social Media Marketing" loading="lazy">
+</div>
+
+<style>
+    /* ===== BACKGROUND MARKETING IMAGES (full width) ===== */
+    .bg-marketing {
+        position: fixed;
+        inset: 0;
+        z-index: 0;
+        pointer-events: none;
+        overflow: hidden;
+    }
+
+    .bg-marketing img {
+        position: absolute;
+        width: 45%;
+        min-width: 300px;
+        max-width: 550px;
+        opacity: 0.12;
+        object-fit: contain;
+        filter: grayscale(0.1) sepia(0.03);
+        transition: opacity 0.6s ease;
+    }
+
+    .bg-marketing img:first-child {
+        bottom: 0;
+        left: -5%;
+        transform: rotate(-6deg) scale(1.1);
+        animation: floatLeft 22s infinite alternate ease-in-out;
+    }
+
+    .bg-marketing img:last-child {
+        top: 0;
+        right: -5%;
+        transform: rotate(8deg) scale(1.1);
+        animation: floatRight 24s infinite alternate ease-in-out;
+    }
+
+    @keyframes floatLeft {
+        0% { transform: rotate(-6deg) scale(1.1) translateX(0); }
+        100% { transform: rotate(-3deg) scale(1.15) translateX(30px); }
+    }
+
+    @keyframes floatRight {
+        0% { transform: rotate(8deg) scale(1.1) translateX(0); }
+        100% { transform: rotate(4deg) scale(1.15) translateX(-30px); }
+    }
+
+    /* responsive background images */
+    @media (max-width: 768px) {
+        .bg-marketing img {
+            width: 55%;
+            min-width: 200px;
+            opacity: 0.10;
+        }
+        .bg-marketing img:first-child {
+            left: -15%;
+            bottom: -5%;
+        }
+        .bg-marketing img:last-child {
+            right: -15%;
+            top: -5%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .bg-marketing img {
+            width: 65%;
+            min-width: 160px;
+            opacity: 0.08;
+        }
+        .bg-marketing img:first-child {
+            left: -20%;
+            bottom: -8%;
+        }
+        .bg-marketing img:last-child {
+            right: -20%;
+            top: -8%;
+        }
+    }
+</style>
 
         <!-- ===== PHONE BUTTONS - arranged in a nice grid ===== -->
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 mb-8">
